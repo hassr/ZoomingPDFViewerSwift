@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5780B8141AF6E98B008A7ED1 /* input1_pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5780B8131AF6E98B008A7ED1 /* input1_pdf.pdf */; };
 		5780B8161AF6EF6A008A7ED1 /* Aux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780B8151AF6EF6A008A7ED1 /* Aux.swift */; };
 		57A3352E1AF53E0C00089EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3352D1AF53E0C00089EDF /* AppDelegate.swift */; };
 		57A335301AF53E0C00089EDF /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3352F1AF53E0C00089EDF /* RootViewController.swift */; };
@@ -33,7 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5780B8131AF6E98B008A7ED1 /* input1_pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = input1_pdf.pdf; sourceTree = "<group>"; };
 		5780B8151AF6EF6A008A7ED1 /* Aux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aux.swift; sourceTree = "<group>"; };
 		57A335281AF53E0C00089EDF /* ZoomSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A3352C1AF53E0C00089EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 		57A3352B1AF53E0C00089EDF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5780B8131AF6E98B008A7ED1 /* input1_pdf.pdf */,
 				57A335551AF5A96400089EDF /* input_pdf.pdf */,
 				57A3352C1AF53E0C00089EDF /* Info.plist */,
 			);
@@ -215,7 +212,6 @@
 			files = (
 				57A335331AF53E0C00089EDF /* Main.storyboard in Resources */,
 				57A335381AF53E0C00089EDF /* LaunchScreen.xib in Resources */,
-				5780B8141AF6E98B008A7ED1 /* input1_pdf.pdf in Resources */,
 				57A335561AF5A96400089EDF /* input_pdf.pdf in Resources */,
 				57A335351AF53E0C00089EDF /* Images.xcassets in Resources */,
 			);
