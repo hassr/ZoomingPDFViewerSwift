@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5780B8141AF6E98B008A7ED1 /* input1_pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5780B8131AF6E98B008A7ED1 /* input1_pdf.pdf */; };
+		5780B8161AF6EF6A008A7ED1 /* Aux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780B8151AF6EF6A008A7ED1 /* Aux.swift */; };
+		57A3352E1AF53E0C00089EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3352D1AF53E0C00089EDF /* AppDelegate.swift */; };
+		57A335301AF53E0C00089EDF /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3352F1AF53E0C00089EDF /* RootViewController.swift */; };
+		57A335331AF53E0C00089EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A335311AF53E0C00089EDF /* Main.storyboard */; };
+		57A335351AF53E0C00089EDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A335341AF53E0C00089EDF /* Images.xcassets */; };
+		57A335381AF53E0C00089EDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57A335361AF53E0C00089EDF /* LaunchScreen.xib */; };
+		57A335441AF53E0C00089EDF /* ZoomSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A335431AF53E0C00089EDF /* ZoomSwiftTests.swift */; };
+		57A3354E1AF53F2C00089EDF /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3354D1AF53F2C00089EDF /* DataViewController.swift */; };
+		57A335501AF53FD200089EDF /* PDFScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A3354F1AF53FD200089EDF /* PDFScrollView.swift */; };
+		57A335521AF5440900089EDF /* TiledPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A335511AF5440900089EDF /* TiledPDFView.swift */; };
+		57A335541AF54C3300089EDF /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A335531AF54C3300089EDF /* ModelController.swift */; };
+		57A335561AF5A96400089EDF /* input_pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57A335551AF5A96400089EDF /* input_pdf.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57A3353E1AF53E0C00089EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A335201AF53E0C00089EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A335271AF53E0C00089EDF;
+			remoteInfo = ZoomSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5780B8131AF6E98B008A7ED1 /* input1_pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = input1_pdf.pdf; sourceTree = "<group>"; };
+		5780B8151AF6EF6A008A7ED1 /* Aux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aux.swift; sourceTree = "<group>"; };
+		57A335281AF53E0C00089EDF /* ZoomSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A3352C1AF53E0C00089EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A3352D1AF53E0C00089EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57A3352F1AF53E0C00089EDF /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		57A335321AF53E0C00089EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57A335341AF53E0C00089EDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57A335371AF53E0C00089EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57A3353D1AF53E0C00089EDF /* ZoomSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A335421AF53E0C00089EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A335431AF53E0C00089EDF /* ZoomSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomSwiftTests.swift; sourceTree = "<group>"; };
+		57A3354D1AF53F2C00089EDF /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		57A3354F1AF53FD200089EDF /* PDFScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFScrollView.swift; sourceTree = "<group>"; };
+		57A335511AF5440900089EDF /* TiledPDFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiledPDFView.swift; sourceTree = "<group>"; };
+		57A335531AF54C3300089EDF /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		57A335551AF5A96400089EDF /* input_pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = input_pdf.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57A335251AF53E0C00089EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A3353A1AF53E0C00089EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57A3351F1AF53E0C00089EDF = {
+			isa = PBXGroup;
+			children = (
+				57A3352A1AF53E0C00089EDF /* ZoomSwift */,
+				57A335401AF53E0C00089EDF /* ZoomSwiftTests */,
+				57A335291AF53E0C00089EDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57A335291AF53E0C00089EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A335281AF53E0C00089EDF /* ZoomSwift.app */,
+				57A3353D1AF53E0C00089EDF /* ZoomSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A3352A1AF53E0C00089EDF /* ZoomSwift */ = {
+			isa = PBXGroup;
+			children = (
+				57A3352D1AF53E0C00089EDF /* AppDelegate.swift */,
+				57A3352F1AF53E0C00089EDF /* RootViewController.swift */,
+				5780B8151AF6EF6A008A7ED1 /* Aux.swift */,
+				57A335511AF5440900089EDF /* TiledPDFView.swift */,
+				57A3354D1AF53F2C00089EDF /* DataViewController.swift */,
+				57A3354F1AF53FD200089EDF /* PDFScrollView.swift */,
+				57A335531AF54C3300089EDF /* ModelController.swift */,
+				57A335311AF53E0C00089EDF /* Main.storyboard */,
+				57A335341AF53E0C00089EDF /* Images.xcassets */,
+				57A335361AF53E0C00089EDF /* LaunchScreen.xib */,
+				57A3352B1AF53E0C00089EDF /* Supporting Files */,
+			);
+			path = ZoomSwift;
+			sourceTree = "<group>";
+		};
+		57A3352B1AF53E0C00089EDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5780B8131AF6E98B008A7ED1 /* input1_pdf.pdf */,
+				57A335551AF5A96400089EDF /* input_pdf.pdf */,
+				57A3352C1AF53E0C00089EDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57A335401AF53E0C00089EDF /* ZoomSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				57A335431AF53E0C00089EDF /* ZoomSwiftTests.swift */,
+				57A335411AF53E0C00089EDF /* Supporting Files */,
+			);
+			path = ZoomSwiftTests;
+			sourceTree = "<group>";
+		};
+		57A335411AF53E0C00089EDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A335421AF53E0C00089EDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57A335271AF53E0C00089EDF /* ZoomSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A335471AF53E0C00089EDF /* Build configuration list for PBXNativeTarget "ZoomSwift" */;
+			buildPhases = (
+				57A335241AF53E0C00089EDF /* Sources */,
+				57A335251AF53E0C00089EDF /* Frameworks */,
+				57A335261AF53E0C00089EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomSwift;
+			productName = ZoomSwift;
+			productReference = 57A335281AF53E0C00089EDF /* ZoomSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57A3353C1AF53E0C00089EDF /* ZoomSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A3354A1AF53E0C00089EDF /* Build configuration list for PBXNativeTarget "ZoomSwiftTests" */;
+			buildPhases = (
+				57A335391AF53E0C00089EDF /* Sources */,
+				57A3353A1AF53E0C00089EDF /* Frameworks */,
+				57A3353B1AF53E0C00089EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A3353F1AF53E0C00089EDF /* PBXTargetDependency */,
+			);
+			name = ZoomSwiftTests;
+			productName = ZoomSwiftTests;
+			productReference = 57A3353D1AF53E0C00089EDF /* ZoomSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57A335201AF53E0C00089EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ryan;
+				TargetAttributes = {
+					57A335271AF53E0C00089EDF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					57A3353C1AF53E0C00089EDF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 57A335271AF53E0C00089EDF;
+					};
+				};
+			};
+			buildConfigurationList = 57A335231AF53E0C00089EDF /* Build configuration list for PBXProject "ZoomSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57A3351F1AF53E0C00089EDF;
+			productRefGroup = 57A335291AF53E0C00089EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57A335271AF53E0C00089EDF /* ZoomSwift */,
+				57A3353C1AF53E0C00089EDF /* ZoomSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57A335261AF53E0C00089EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A335331AF53E0C00089EDF /* Main.storyboard in Resources */,
+				57A335381AF53E0C00089EDF /* LaunchScreen.xib in Resources */,
+				5780B8141AF6E98B008A7ED1 /* input1_pdf.pdf in Resources */,
+				57A335561AF5A96400089EDF /* input_pdf.pdf in Resources */,
+				57A335351AF53E0C00089EDF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A3353B1AF53E0C00089EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A335241AF53E0C00089EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5780B8161AF6EF6A008A7ED1 /* Aux.swift in Sources */,
+				57A335301AF53E0C00089EDF /* RootViewController.swift in Sources */,
+				57A3354E1AF53F2C00089EDF /* DataViewController.swift in Sources */,
+				57A335501AF53FD200089EDF /* PDFScrollView.swift in Sources */,
+				57A335541AF54C3300089EDF /* ModelController.swift in Sources */,
+				57A3352E1AF53E0C00089EDF /* AppDelegate.swift in Sources */,
+				57A335521AF5440900089EDF /* TiledPDFView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A335391AF53E0C00089EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A335441AF53E0C00089EDF /* ZoomSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57A3353F1AF53E0C00089EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57A335271AF53E0C00089EDF /* ZoomSwift */;
+			targetProxy = 57A3353E1AF53E0C00089EDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57A335311AF53E0C00089EDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A335321AF53E0C00089EDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57A335361AF53E0C00089EDF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A335371AF53E0C00089EDF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57A335451AF53E0C00089EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		57A335461AF53E0C00089EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57A335481AF53E0C00089EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoomSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57A335491AF53E0C00089EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoomSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57A3354B1AF53E0C00089EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZoomSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomSwift.app/ZoomSwift";
+			};
+			name = Debug;
+		};
+		57A3354C1AF53E0C00089EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZoomSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomSwift.app/ZoomSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57A335231AF53E0C00089EDF /* Build configuration list for PBXProject "ZoomSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A335451AF53E0C00089EDF /* Debug */,
+				57A335461AF53E0C00089EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A335471AF53E0C00089EDF /* Build configuration list for PBXNativeTarget "ZoomSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A335481AF53E0C00089EDF /* Debug */,
+				57A335491AF53E0C00089EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A3354A1AF53E0C00089EDF /* Build configuration list for PBXNativeTarget "ZoomSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A3354B1AF53E0C00089EDF /* Debug */,
+				57A3354C1AF53E0C00089EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57A335201AF53E0C00089EDF /* Project object */;
+}
