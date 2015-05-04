@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0955C848-F6CC-475E-ACBE-D9D81AE3D978</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZoomSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C0C9C899E3366D94BF33E9D492F30E9DF4B772C7</key>
+		<string>https://github.com/hassr/ZoomingPDFViewerSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZoomSwift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C0C9C899E3366D94BF33E9D492F30E9DF4B772C7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hassr/ZoomingPDFViewerSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0C9C899E3366D94BF33E9D492F30E9DF4B772C7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0C9C899E3366D94BF33E9D492F30E9DF4B772C7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZoomingPDFViewerSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

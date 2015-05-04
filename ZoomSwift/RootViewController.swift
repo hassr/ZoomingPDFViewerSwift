@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPageViewControllerDelegate {
+class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
     var pageViewController: UIPageViewController!
     var modelController: ModelController!

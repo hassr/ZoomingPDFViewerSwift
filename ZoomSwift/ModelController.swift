@@ -22,7 +22,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
     override init() {
         super.init()
         // Create the data model.
-        let pdfURL = NSBundle.mainBundle().URLForResource("input1_pdf.pdf", withExtension: nil)
+        let pdfURL = NSBundle.mainBundle().URLForResource("input_pdf.pdf", withExtension: nil)
         self.pdf = CGPDFDocumentCreateWithURL(pdfURL)
         self.numberOfPages = CGPDFDocumentGetNumberOfPages(self.pdf) as Int
         if (self.numberOfPages % 2 == 1) {
